@@ -1,0 +1,631 @@
+:root {
+  --text-base: #1a1b20;
+}
+
+html,
+body {
+  min-height: 100%;
+  background-color: #fff;
+  margin: 0;
+  padding: 0;
+}
+* {
+  color: var(--text-base);
+  overflow-x: hidden;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "PT serif";
+  margin: 0;
+}
+
+h1 {
+  font-size: 2.375rem;
+  line-height: 3.3125rem;
+  text-align: center;
+}
+
+h2 {
+  font-size: 2.0625rem;
+}
+
+h3 {
+  font-size: 1.5625rem;
+}
+
+p {
+  font-family: "Inter";
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.875rem;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.pl-5 {
+  padding-left: 0.4rem;
+}
+
+.container {
+  padding: 0 1.25rem;
+}
+
+.logo {
+  width: 4.261rem;
+  height: 0.8495rem;
+}
+
+.bg {
+  background-color: #f6f6f4;
+}
+
+.header-content {
+  height: 80px;
+  position: relative;
+  z-index: 10;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.customer-experience h1 {
+  padding-top: 0.6rem;
+  padding-bottom: 1.88rem;
+}
+
+.pt-5 {
+  padding-top: 5px;
+}
+
+.business-section {
+  padding-top: 1.05rem;
+  padding-bottom: 2.5rem;
+}
+
+.ellipse-half {
+  position: absolute;
+  left: -4px;
+  z-index: 1;
+}
+
+.ellipse-full {
+  display: none;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.customer-experience {
+  z-index: 10;
+  position: relative;
+  margin-bottom: 41px;
+}
+
+.form-container {
+  border-radius: 1rem;
+  background: #fff;
+  display: flex;
+  padding: 2.5rem 0rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+p {
+  font-size: 20px;
+  font-family: "inter", sans-serif;
+  line-height: 32px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5625rem;
+}
+
+input {
+  border-radius: 3.25rem;
+  border: 1px solid #9e9e9e;
+  display: flex;
+  padding: 0.75rem 1.5rem;
+  align-items: center;
+  gap: 0.625rem;
+}
+
+button {
+  display: flex;
+  width: 16.875rem;
+  height: 3.75rem;
+  min-width: 10rem;
+  padding: 0.9375rem 1.25rem;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  flex-shrink: 0;
+  border-radius: 3.25rem;
+  background: #275de3;
+  border-color: #275de3;
+  color: #fff;
+  font-size: 1.125rem;
+  font-weight: 500;
+}
+
+.channels-container {
+  padding-top: 2.25rem;
+  background-color: #fff;
+  padding-bottom: 2.5rem;
+}
+
+.channels-content {
+  padding-top: 1.19rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.channels-content h2 {
+  padding: 1.44rem 0.44rem 1.88rem 0.5rem;
+}
+
+.social-content {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1.25rem;
+  padding-top: 2.13rem;
+}
+
+.social-logo-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 2rem;
+  flex: 1 0 0;
+}
+
+.social-infos {
+  display: flex;
+  padding: 2rem;
+  align-items: flex-start;
+  gap: 1rem;
+  border-radius: 0.5rem;
+  border: 1px solid #f0f0f0;
+  background: #fafafa;
+  max-width: 16.9375rem;
+  min-width: 10.75rem;
+}
+
+.social-main-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1.3125rem;
+  align-self: stretch;
+}
+
+.social-logo {
+  width: 3rem;
+  height: 3rem;
+}
+
+.social-name {
+  font-weight: 500;
+  line-height: 2.125rem;
+}
+
+.tiktok {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.coming-soon {
+  margin-left: 0.6rem;
+  display: flex;
+  height: 0.875rem;
+  padding: 0rem 0.375rem;
+  justify-content: center;
+  align-items: center;
+  gap: 0.625rem;
+  color: #fff;
+  font-family: "Inter";
+  font-size: 0.625rem;
+  font-weight: 500;
+  line-height: 0.625rem;
+  text-transform: uppercase;
+  border-radius: 1.5rem;
+  background: #1a1b20;
+}
+
+.social-description {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.6rem;
+}
+
+.start-button {
+  padding-top: 2.5rem;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+
+.teams {
+  display: inline-flex;
+  padding: 1.25rem 0rem 2.5rem 0rem;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 0.625rem;
+  flex-shrink: 0;
+}
+
+.teams-header h2 {
+  padding-bottom: 1.94rem;
+}
+
+.teams-header p {
+  color: #212121;
+  line-height: 1.6875rem;
+  padding-bottom: 2.5rem;
+}
+
+.first-team,
+.second-team {
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.second-team {
+  padding-top: 2.5rem;
+}
+
+.team-content {
+  padding-top: 1.94rem;
+  text-align: left;
+  width: 20.9375rem;
+  flex-shrink: 0;
+}
+
+.team-content h3 {
+  padding-bottom: 1.56rem;
+  font-family: "Inter";
+  font-size: 1.25rem;
+  font-weight: 500;
+  line-height: 1.875rem;
+}
+
+.team-content p {
+  color: #424242;
+  font-family: "Inter";
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.6rem;
+  padding-bottom: 0;
+}
+
+.team-card {
+  width: 20.9375rem;
+}
+
+footer {
+  display: flex;
+  padding: 1.1875rem 0rem 3.6875rem 0rem;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1.125rem;
+}
+
+.footer-social p {
+  color: #121212;
+  text-align: center;
+  font-size: 0.875rem;
+  line-height: 1.4875rem;
+}
+
+.social-info-icons {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.footer-actions {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  align-content: flex-start;
+  gap: 1rem 1.5rem;
+  flex-wrap: wrap;
+  padding-top: 1.25rem;
+}
+
+.footer-actions p {
+  font-size: 0.875rem;
+  font-weight: 500;
+  line-height: 1.3125rem;
+}
+
+@media (min-width: 768px) {
+  .container {
+    padding: 0 2rem;
+  }
+
+  .business-section {
+    padding-bottom: 4rem;
+  }
+
+  .customer-experience {
+    margin: 0 auto;
+    width: 80%;
+    padding-bottom: 3rem;
+  }
+
+  .ellipse-half {
+    display: none;
+  }
+
+  .ellipse-full {
+    display: block;
+    position: absolute;
+    left: 5rem;
+    top: 3rem;
+    z-index: 1;
+    width: 8rem;
+    height: 8rem;
+  }
+
+  .form-cover {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    z-index: 10;
+  }
+
+  .form-container {
+    width: 60%;
+  }
+
+  .teams-container {
+    display: flex;
+    justify-content: center;
+  }
+
+  .team-card {
+    height: 30rem;
+  }
+
+  .teams-cover {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 2.25rem;
+  }
+
+  .first-team,
+  .second-team {
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 2rem;
+  }
+
+  .second-team {
+    padding-top: 0;
+  }
+
+  .social-content {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+
+  .teams-header h2 {
+    padding-top: 1.94rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .container {
+    padding: 2rem;
+  }
+  .header-content {
+    padding: 0 1.25rem;
+  }
+
+  h1 {
+    font-size: 3rem;
+    line-height: normal;
+    padding-bottom: 2rem;
+  }
+
+  .ellipse-full {
+    left: 5rem;
+    top: 5rem;
+    width: 7rem;
+    height: 7rem;
+  }
+
+  .business-content {
+    display: flex;
+  }
+
+  .customer-experience,
+  .form-cover {
+    /* margin: 0 auto; */
+    width: 50%;
+    padding-bottom: 0;
+  }
+
+  .form-container {
+    width: 80%;
+  }
+
+  .channels-container {
+    padding-top: 4.5rem;
+    padding-bottom: 2.5rem;
+  }
+
+  .channels-content {
+    padding: 0 5rem;
+  }
+
+  .channels-content h2 {
+    padding: 0 0.44rem 1rem 0.5rem;
+    font-size: 2.5rem;
+    text-align: center;
+  }
+
+  .social-description {
+    text-align: center;
+  }
+
+  .social-content {
+    justify-content: center;
+  }
+
+  .teams-header h2 {
+    padding-bottom: 1rem;
+  }
+}
+
+@media (min-width: 1440px) {
+  h1 {
+    font-size: 4rem;
+  }
+
+  .ellipse-full {
+    left: 6rem;
+    top: 6rem;
+    z-index: 1;
+    width: 14rem;
+    height: 14rem;
+  }
+
+  .business-section {
+    padding: 5.5rem 8rem;
+  }
+
+  .business-content {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .form-container {
+    width: 70%;
+  }
+
+  form {
+    width: 80%;
+  }
+
+  .channels-content {
+    padding: 0 10rem;
+  }
+
+  .social-infos {
+    width: 21.6875rem;
+  }
+
+  .footer-social {
+    display: inline-flex;
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  .social-info-footer {
+    display: inline-flex;
+  }
+
+  .social-info-icons {
+    display: inline-block;
+    width: fit-content;
+    padding-right: 3rem;
+  }
+
+  .social-info-footer p {
+    font-size: 0.75rem;
+    width: 40%;
+  }
+}
+
+@media (min-width: 2560px) {
+  .business-section {
+    padding: 6.5rem 16.5rem;
+  }
+
+  .ellipse-full {
+    left: 25rem;
+    top: 4rem;
+    z-index: 1;
+    width: 20.8125rem;
+    height: 20.8125rem;
+  }
+
+  .customer-experience {
+    width: 46.25rem;
+  }
+
+  .customer-experience h1 {
+    width: 49.5625rem;
+    font-size: 5rem;
+  }
+
+  .customer-experience p {
+    font-size: 1.25rem;
+    line-height: 2rem;
+  }
+
+  .input-container {
+    overflow-x: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  input {
+    width: 21.25rem !important;
+    height: 3.75rem !important;
+  }
+
+  .submit-button {
+    display: flex;
+    width: 13.5625rem;
+    height: 3.75rem;
+    min-width: 10rem;
+    padding: 0.9375rem 1.25rem;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    flex-shrink: 0;
+  }
+
+  .channels-content {
+    padding: 7.5rem 18.5rem 0 16.5rem;
+  }
+
+  .social-content {
+    padding: 5rem 0;
+  }
+
+  .social-description,
+  .channels-content {
+    text-align: left;
+  }
+}

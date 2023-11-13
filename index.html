@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter&family=Montserrat:ital,wght@0,700;0,800;1,400&family=PT+Serif&display=swap"
+      rel="stylesheet"
+    />
+    <!-- <link rel="stylesheet" href="./css/global.css" /> -->
+    <link rel="stylesheet" href="./css/main.css" />
+    <title>Fjorge Test</title>
+  </head>
+  <body>
+    <main>
+      <header class="bg">
+        <div class="container header-content">
+          <div><img src="./images/logo.svg" alt="logo" class="logo" /></div>
+          <div style="display: flex">
+            <img src="./images/phone-call.svg" alt="phone" />
+            <p class="pl-5">(800) 555-5555</p>
+          </div>
+        </div>
+      </header>
+      <div class="main-content">
+        <div class="business-section bg container">
+          <img src="./images/ellipse-half.svg" alt="" class="ellipse-half" />
+          <img src="./images/ellipse-full.png" alt="" class="ellipse-full" />
+          <div class="business-content">
+            <div class="customer-experience">
+              <h1>Customer-centric experiences are the future of business</h1>
+              <p class="text-center">
+                Build a customer-centric culture with a digital customer service
+                platform. Provide connected & automated customer service, manage
+                online reviews and become a social superstar - all from one
+                place!
+              </p>
+            </div>
+            <div class="form-cover">
+              <div class="form-container">
+                <h3 class="text-center">Get Started Today</h3>
+
+                <form onsubmit="submitForm(event)">
+                  <p class="error-message"></p>
+                  <div class="input-container">
+                    <input
+                      type="text"
+                      class="input first-name"
+                      placeholder="First Name"
+                    />
+                  </div>
+                  <div class="input-container">
+                    <input
+                      type="text"
+                      class="input last-name"
+                      placeholder="Last Name"
+                    />
+                  </div>
+                  <div class="input-container">
+                    <input
+                      type="number"
+                      class="input phone-number"
+                      placeholder="Phone Number"
+                    />
+                  </div>
+                  <div class="input-container">
+                    <input
+                      type="email"
+                      class="input email"
+                      placeholder="Email"
+                    />
+                  </div>
+                  <div class="input-container">
+                    <input
+                      type="text"
+                      class="input company-name"
+                      placeholder="Company Name"
+                    />
+                  </div>
+                  <button class="submit-button" type="submit">
+                    Get started
+                  </button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="channels-container container">
+          <div class="channels-content">
+            <h2 class="text-center">Connected to the tools you love.</h2>
+            <p>
+              All the channels you need to effectively manage your digital brand
+              presence
+            </p>
+            <div class="social-content">
+              <div class="social-infos">
+                <div class="social-logo-container">
+                  <img
+                    src="./images/facebook-logo.svg"
+                    alt="facebook-logo"
+                    class="social-logo"
+                  />
+                  <div class="social-main-content">
+                    <p class="social-name">Facebook</p>
+                    <p class="social-description">
+                      Elevate your presence on Facebook with powerful
+                      publishing, scheduling and monitoring tools.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="social-infos">
+                <div class="social-logo-container">
+                  <img
+                    src="./images/instagram-logo.svg"
+                    alt="instagram-logo"
+                    class="instagram-logo"
+                  />
+                  <div class="social-main-content">
+                    <p class="social-name">Instagram</p>
+                    <p class="social-description">
+                      Never miss a beat and turn the popularity of Instagram
+                      into your biggest asset.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="social-infos">
+                <div class="social-logo-container">
+                  <img
+                    src="./images/tiktok-logo.svg"
+                    alt="tiktok-logo"
+                    class="tiktok-logo"
+                  />
+                  <div class="social-main-content">
+                    <p class="social-name tiktok">
+                      <span>TikTok</span
+                      ><span class="coming-soon">Coming Soon</span>
+                    </p>
+                    <p class="social-description">
+                      Take your marketing strategy to the next level with
+                      TikTok's latest video capabilities.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="social-infos">
+                <div class="social-logo-container">
+                  <img
+                    src="./images/linkedIn-logo.svg"
+                    alt="linkedIn-logo"
+                    class="social-logo"
+                  />
+                  <div class="social-main-content">
+                    <p class="social-name">LinkedIn</p>
+                    <p class="social-description">
+                      Manage your brand presence with more personalized &
+                      professional conversations on LinkedIn.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="social-infos">
+                <div class="social-logo-container">
+                  <img
+                    src="./images/pinterest-logo.svg"
+                    alt="pinterest-logo"
+                    class="social-logo"
+                  />
+                  <div class="social-main-content">
+                    <p class="social-name">Pinterest</p>
+                    <p class="social-description">
+                      Turn your Pinterest content into real, long-lasting
+                      business relationships.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="social-infos">
+                <div class="social-logo-container">
+                  <img
+                    src="./images/youtube-logo.svg"
+                    alt="youtube-logo"
+                    class="social-logo"
+                  />
+                  <div class="social-main-content">
+                    <p class="social-name">Youtube</p>
+                    <p class="social-description">
+                      Build better relationships with your YouTube fans and
+                      followers from a single, scalable platform.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="social-infos">
+                <div class="social-logo-container">
+                  <img
+                    src="./images/gmail-logo.png"
+                    alt="gmail-logo"
+                    class="social-logo"
+                  />
+                  <div class="social-main-content">
+                    <p class="social-name">Gmail</p>
+                    <p class="social-description">
+                      Take ownership of your brands business listings so it's
+                      working for you 24 hours, 7 days a week.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="social-infos">
+                <div class="social-logo-container">
+                  <img
+                    src="./images/yelp-logo.png"
+                    alt="yelp-logo"
+                    class="social-logo"
+                  />
+                  <div class="social-main-content">
+                    <p class="social-name">Yelp</p>
+                    <p class="social-description">
+                      Make review management and moderation on Yelp a breeze
+                      with Nextiva's listening & response tools
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="social-infos">
+                <div class="social-logo-container">
+                  <img
+                    src="./images/tripadvisor-logo.svg"
+                    alt="tripadvisor-logo"
+                    class="social-logo"
+                  />
+                  <div class="social-main-content">
+                    <p class="social-name">TripAdvisor</p>
+                    <p class="social-description">
+                      Pull your TripAdvisor reviews into a single workspace so
+                      no review ever goes unmanaged.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="social-infos">
+                <div class="social-logo-container">
+                  <img
+                    src="./images/messenger-logo.svg"
+                    alt="messenger-logo"
+                    class="social-logo"
+                  />
+                  <div class="social-main-content">
+                    <p class="social-name">Facebook Messenger</p>
+                    <p class="social-description">
+                      Delight your customers with streamlined responses &
+                      conversations on Messenger.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="social-infos">
+                <div class="social-logo-container">
+                  <img
+                    src="./images/whatsapp-logo.png"
+                    alt="whatsapp-logo"
+                    class="social-logo"
+                  />
+                  <div class="social-main-content">
+                    <p class="social-name">WhatsApp</p>
+                    <p class="social-description">
+                      Meet your customers where they are by integrating WhatsApp
+                      with Nextiva Social.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="social-infos">
+                <div class="social-logo-container">
+                  <img
+                    src="./images/facebook-logo.svg"
+                    alt="facebook-logo"
+                    class="social-logo"
+                  />
+                  <div class="social-main-content">
+                    <p class="social-name">Facebook</p>
+                    <p class="social-description">
+                      Elevate your presence on Facebook with powerful
+                      publishing, scheduling and monitoring tools.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="start-button">
+              <button class="submit-button">Get started</button>
+            </div>
+          </div>
+        </div>
+        <div class="teams-container container">
+          <div class="teams">
+            <div class="text-center teams-header">
+              <h2>Why Social</h2>
+              <p>Any team can benefit from Social and Review Marketing Cloud</p>
+              <div class="teams-cover">
+                <div class="first-team">
+                  <div class="team-card">
+                    <div>
+                      <img src="./images/experience.png" alt="experience" />
+                    </div>
+                    <div class="team-content">
+                      <h3>Years of Experience</h3>
+                      <p>
+                        We’ve been helping brands and businesses deliver great
+                        customer experiences for over 10 years. And we continue
+                        to listen and learn from our customers so our product
+                        meets your needs and expectations.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="team-card">
+                    <div>
+                      <img src="./images/innovation.png" alt="innovation" />
+                    </div>
+                    <div class="team-content">
+                      <h3>Continuous Innovation</h3>
+                      <p>
+                        We make sure our products stay the best in the industry.
+                        It's important to us that our products are reliable and
+                        provide you with the quality service & innovation you
+                        expect from an industry leader.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="second-team">
+                  <div class="team-card">
+                    <div>
+                      <img src="./images/deployment.png" alt="deployment" />
+                    </div>
+                    <div class="team-content">
+                      <h3>Easy Onboarding & Deployment</h3>
+                      <p>
+                        We provide both self-serve and support guided onboarding
+                        and deployment, so you can get started quickly and have
+                        all of your questions answered from day one.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="team-card">
+                    <div>
+                      <img src="./images/investment.png" alt="investment" />
+                    </div>
+                    <div class="team-content">
+                      <h3>Return on Investment</h3>
+                      <p>
+                        We measure our success on our customers' return on
+                        investment. Our platform is designed to improve your
+                        operational efficiency and turn your online reputation
+                        into a revenue driver for your business.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <footer class="container">
+          <div class="footer-social">
+            <div class="social-info-footer">
+              <div class="social-info-icons">
+                <a href="#">
+                  <img src="./images/social icons.png" alt="social-icons" />
+                </a>
+              </div>
+              <p>
+                Social is the #1 Rated Business Phone System. Copyright 2023
+                Nextiva. All Rights Reserved.
+              </p>
+            </div>
+            <div class="footer-actions">
+              <p><a href="#"> Legal</a></p>
+              <p><a href="#">Privacy Policy</a></p>
+              <p><a href="#"> Security Policy</a></p>
+              <p><a href="#"> Patents</a></p>
+              <p><a href="#"> Sitemap</a></p>
+            </div>
+          </div>
+        </footer>
+      </div>
+    </main>
+    <script>
+      const firstName = document.querySelector(".first-name");
+      const lastName = document.querySelector(".last-name");
+      const phoneNumber = document.querySelector(".phone-number");
+      const email = document.querySelector(".email");
+      const companyName = document.querySelector(".company-name");
+      const errorMessage = document.querySelector(".error-message");
+
+      firstName.focus();
+
+      function verifyInputFields() {
+        errorMessage.textContent = "";
+        if (
+          firstName.value === "" ||
+          lastName.value === "" ||
+          phoneNumber.value === "" ||
+          email.value === "" ||
+          companyName.value === ""
+        ) {
+          errorMessage.textContent = "All input fields are required!";
+        }
+      }
+
+      function submitForm(e) {
+        e.preventDefault();
+        console.log(verifyInputFields());
+        window.location.href =
+          "file:///C:/Users/code%20hero/Documents/frontend/html/fjorge-test/index.html?success-true";
+      }
+    </script>
+  </body>
+</html>
